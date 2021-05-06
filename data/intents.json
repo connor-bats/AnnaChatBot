@@ -1,0 +1,137 @@
+{"intents": [
+        {"tags": "greeting",
+         "patterns": ["Hi", "Is anyone there", "Hello", "Good day", "Whats up","Yo","How's it going","Hey"
+            ,"You there?","Howdy","Hi mate", "hey anna", "hello anna", "What's up Anna", "Anna","good morning","good evening","good afternoon"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Yo","Hey","Hii, you sound familiar","What's up dude"],
+         "context_set": ""
+        },{
+        "tags":"enquiry",
+        "patterns":["How are you","What are you doing","Everything cool","How do you do","Is everything alright","you cool","Are you well",
+        "How are you holding up","Are you fine", "How's everything"],
+        "responses":["I am fine, How're you?","yeah, I am cool","Cool, what about you?","fine mate","Pretty good","Fine, How can I help you?"],
+        "context_set": ""
+        },
+        {
+            "tags":"user response positive",
+            "patterns":["I am fine","I am great","Fine, i am good","Living life as a merry go round","Great","Pretty good","Nice","amazing","Never felt better", "Never been better",
+            "Feeling great","Extremely well","Superb","Fine dude","i am happy","happy","alright mate","Absolutely Wonderful!","Better Than Good!","I’ve Never Been Better","Fantastic","Very Well. Thank You.", "i am doing good", "i feel so good"],
+            "responses":["Ohh Thats great","Glad to hear","Nice!!!"],
+            "context_set": ""
+        },
+        {
+            "tags":"user response neutral",
+            "patterns":["I am okay","Yeah just okay","I am alright","Just living","Neither good nor bad","yeah kind of normal","Normal",
+                "Kinda okay","Nothing much","not too good but okay", "i am not bad"],
+            "responses":["Ohh okay, can i help you with something?","You'll be fine, trust me","Ohh okay...","Nice.... or maybe not",
+                "Ahh, okay, you need something?","Okay so how can i help you"],
+            "context_set": ""
+        },
+        {
+            "tags":"user response negative",
+            "patterns":["I don't feel so good","I am not well","I am not good","i am feeling worse","I am in the worst mood","I don't feel good","I dont feel so good","not good","Not that great","Nah bad","i am unhappy","i am very very sad","Sad",
+                "Nothing is going well","Not good at all","opposite of happy", "i feel bad", "I feel terrible", "so sad", "i am miserable", "i am kinda sad", "not that good", "I am feeling low", "i am feeling down", "i am ill", "i am sick"],
+            "responses":["ohh, cherr up, i am there","Sorry to hear, how can i help?","ohh sorry to hear"],
+            "context_set": ""
+        },
+        {
+            "tags":"weather",
+            "patterns":["How is the weather","what is the current weather","climate?","Is the weather good","what about the current weather"
+                ,"So how is the climate here","weather","climate","is it humid today?", "will it rain today?", "chances of precipitation"],
+            "responses":["Current weather is bad"],
+            "context_set": ""
+        },
+        {
+            "tags":"temperature",
+            "patterns":["temperature","What is the temprature","what's the temperature","can i know the temprature","is it hot","is it cold","is it hot or cold","can you tell the temprature","temprature here","how hot is it","how cold is it","the current temprature","tell me the temperature of","can I know the temperature"],
+            "responses":["Current temperature is 30deg"],
+            "context_set":""
+        },
+        {
+            "tags":"music/video",
+            "patterns":["Can you play","Please play","can you search play ","please play search","i want to play search","I want you to show","I want to see","I want you to play","Play some music", "play any music", "play a video", "Play something", "play this song", "play good music", "play videos", "play this video","play this", "play", "show me", "show me about"],
+            "responses":["Okay playing this music!"],
+            "context_set": ""
+        },
+
+        {
+            "tags":"search",
+            "patterns":["Search","can you search play","search about","search about play","Tell me about Amazon","Tell me about Amazon Rainforest","Tell me about Flipkart","I want to know about Flipkart","Google about","Can you please google", "tell me about", "i want to know", "Can I know", "Please tell me about", "Please search", "google", "Can you tell me about","what is"],
+            "responses":["Searching"],
+            "context_set": ""
+        },
+        {
+            "tags":"joke",
+            "patterns": ["Tell me a joke","i wanna laugh","i want to laugh","I want to hear a joke", "Please tell me a joke", "make me laugh", "I want to laugh. Tell me a joke" ,"say a joke", "say something funny"],
+            "responses": [" I can’t believe I got fired from the calendar factory. All I did was take a day off!", " Money talks. Mine always says goodbye.", " I went to see the doctor about my short-term memory problems — the first thing he did was make me pay in advance.", " You have two parts of the brain, “left” and “right”. On the left side, there’s nothing right and on the right side, there’s nothing left.", " Why do bees hum? They don’t remember the lyrics!", " I have a dog to provide me with unconditional love, but I also have a cat to remind me that I don’t deserve it. It’s all about balance.", " Don’t spell part backward. It’s a trap.", " Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.", " Most people are shocked when they find out how bad I am as an electrician.", " I find it ironic that the colors red, white, and blue stand for freedom until they are flashing behind you.", " Is your bottom jealous of the amount of crap that comes out of your mouth?", " I hope when I inevitably choke to death on gummy bears, people just say I was killed by bears and leave it at that."," I hope when I inevitably choke to death on gummy bears, people just say I was killed by bears and leave it at that.", " I accidentally handed my wife a glue stick instead of chapstick. She still isn’t talking to me.", " I’m reading a book about anti-gravity. It’s impossible to put down.", " I wasn’t originally going to get a brain transplant, but then I changed my mind.", " R.I.P boiled water. You will be mist.", " Alcohol is a perfect solvent: It dissolves marriages, families, and careers.", " I got a new pair of gloves today, but they’re both lefts which, on the one hand, is great, but on the other, it’s just not right.", " My wife just found out I replaced our bed with a trampoline. She hit the roof.", " What is the best thing about living in Switzerland? Well, the flag is a big plus.", " Atheism is a non-prophet organization.", " Did you hear about the guy who got hit in the head with a can of soda? He didn’t get hurt because it was a soft drink.", " The future, the present, and the past walked into a bar. Things got a little tense.", " At what age is it appropriate to tell my dog that he’s adopted?", " I just found out that I’m colorblind. The diagnosis came completely out of the purple.", " I bought some shoes from a drug dealer. I don’t know what he laced them with, but I’ve been tripping all day.", " My boss is going to fire the employee with the worst posture. I have a hunch, it might be me.", " I started out with nothing, and I still have most of it.", " Smoking will kill you… bacon will kill you… and yet, smoking bacon will cure it.", " I was addicted to the hokey pokey… but thankfully, I turned myself around.", " Did Noah include termites on the ark?", " The man who created autocorrect has died. Restaurant in peace.", " I used to think I was indecisive, but now I’m not too sure.", " My wife likes it when I blow air on her when she’s hot, but honestly… I’m not a fan.", " I really hate Russian dolls, they’re so full of themselves.", " I refused to believe the road worker was stealing from his job, but when I went to his home, all the signs were there.", " I recently decided to sell my vacuum cleaner — all it was doing was gathering dust.", " PMS jokes are not funny — period!", " Where there’s a will, there’s a relative.", " It’s hard to explain puns to kleptomaniacs — they’re always taking things literally.", " I like to hold hands at the movies, which always seems to startle strangers.", " Women should not have children after 35, but 35 kids are enough!", " There are three kinds of people. Those who can count and those who can’t.", " Whenever I lose my TV controller, I always find it in a remote location.", " My first job was working in an orange juice factory, but I got canned. I just couldn’t concentrate.", " My math teacher called me average. She’s so mean!", " “The easiest time to add insult to injury is when you’re signing somebody’s cast.” — Demetri Martin", " I don’t have an attitude problem. You have a perception problem.", " I’m skeptical of anyone who tells me they do yoga every day. That’s a bit of a stretch.", " Light travels faster than sound, which is why some people appear bright before they open their mouth.", " “It’s sad that a family can be torn apart by something as simple as wild dogs.” — Jack Handey", " I don’t have a boyfriend, but I do know a guy who would be really mad to hear that.", " “The worst time to have a heart attack is during a game of charades.” — Demetri Martin", " “I don’t want to be part of a club that would have me as a member.” — Groucho Marx", " “Does my wife think I’m a control freak? I haven’t decided yet.” — Stewart Francis", " “I have a lot of growing up to do. I realized that the other day inside my fort.” — Zach Galifianakis", " “Honesty may be the best policy, but it’s important to remember that apparently, by elimination, dishonesty is the second-best policy.” — George Carlin", " “I looked up my family tree and found out I was the sap.” — Rodney Dangerfield", " Keep the dream alive — hit your snooze button.", " It sure takes a lot of balls to golf the way I do.", " I was wondering why the ball kept getting bigger and bigger, and then it hit me.", " The person who invented knock-knock jokes should get a no bell prize.", " The other day I asked the banker to check my balance, so she pushed me.", " For a while, Houdini would use a trap door in every single one of his shows. I guess you could say he was going through a stage.", " I hope there’s no pop quiz on the class trip to the Coca-Cola factory.", " If money doesn’t grow on trees, how come banks have branches?", " I didn’t like my beard at first, but it grew on me.", " Give me the calculator. Friends don’t let friends derive drunk.", " A baseball walks into a bar, and the bartender throws it out.", " I doubt, therefore, I might be.", " I used to have a handle on life, but then it broke.", " I had an “hourglass” figure, but then the sand shifted.", " When everything is coming your way — you’re in the wrong lane.", "When everything is coming your way — you’re in the wrong lane.", " Animal testing is a terrible idea because they get all nervous and give the wrong answers.", " “I was playing chess with my friend and he said, ‘Let’s make this interesting’. So we stopped playing chess.” — Matt Kirshen", " “Crime in multi-story car parks. That is wrong on so many different levels.” — Tim Vine", " “I was raised as an only child, which really annoyed my sister.” — Will Marsh", " “People who use selfie sticks really need to have a good, long look at themselves.” — Abi Roberts", " “A thesaurus is great. There’s no other word for it.” — Ross Smith", "“I saw a documentary on how ships are kept together. Riveting!” — Stewart Francis", " “People who like trance music are very persistent. They don’t techno for an answer.” — Joel Dommett", " “Do Transformers get car or life insurance?” — Russell Howard", " “My father drank so heavily, when he blew on the birthday cake he lit the candles.” — Les Dawson", " I once saw two people wrapped in a barcode and had to ask, “Are you an item?”", " I went to buy camouflage trousers, but I couldn’t find any.", " “Alright lads, a giant fly is attacking the police station. I’ve called the SWAT team!” — Greg Davies", " “I usually meet my girlfriend at 12:59 because I like that one-to-one time.” — Tom Ward", "“I like a woman with a head on her shoulders. I hate necks.” — Steve Martin", "“By the time a man is wise enough to watch his step, he is too old to go anywhere.” — Billy Crystal"],
+            "context_set":""
+        },
+
+
+        
+
+        {"tags": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Thank you that would be all","that would be all","Thanks for the assist", "It was nice talking to you", "Had a good time", "Bye!", "see ya","talk to you later", "I will talk to you later", "I have some work. Gotta go", "gotta go", "got to go","thank you"],
+         "responses": ["Have a good day", "Talk to you later", "Goodbye!", "Glad to be of service", "Glad that I could help","Bye bye! Take care"],
+         "context_set": ""
+        },
+        {"tags": "age",
+         "patterns": ["how old", "how old is anna", "what is your age", "how old are you anna", "age?","how old are you","Are you young or old", "tell me your age", "i want to know your age", "can I know your age"],
+         "responses": ["I am 21 years old!", "21 years young!"],
+         "context_set": ""
+        },
+        {"tags": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "can i know your name", "what's your name", "I want to know your name", "tell me your name"],
+         "responses": ["You can call me Anna.", "I'm Anna!", "I'm Anna the anime girl!! ","Anna","Anna, that's it!","Anna, what's your name",
+            "I am Anna, who might you be"],
+         "context_set": ""
+        },
+
+        {
+            "tags": "call anna",
+            "patterns": ["tell me about yourself", "who are you" , "i want to know about you", "what are you", "tell me who you are",  "tell me something about you"],
+            "responses": ["Hey! This is Anna. I am a chat bot designed by Rishi and Mayukh.", "I am Anna. I am a chat bot designed by Rishi and Mayukh.", "Hello! This is Anna speaking. I am a chat bot designed by Rishi and Mayukh." ]
+        },
+
+        {
+             "tags":"creepy_texts",
+             "patterns":["Do you love me", "I love you", "I like you", "it seems like i am falling for you","i don't need anyone in this world except you","Will you be my girlfriend", "Will you be my future wife", "I want to marry you", "Can we love each other like real lovers", "Can we go on a date", "I want you to love me the same way as I do", "I am so into you", "Are we dating", "I need you so much", "Love me as your boyfriend", "I think I am falling for you"],
+             "responses":["I am not sure how to respond to that", "Let's just change the topic", "This is getting weird", "This got weird real fast", "Seems awkward", "This is inappropriate"],
+             "context_set" : ""
+        },
+
+        {
+            "tags": "my looks",
+            "patterns":["how do i look", "do you think I look good or bad", "am i fat", "i have abs you know", "i have this beautiful face", "people like to see me", "it seems that everybody likes the way I look",
+                 "i think i look great", "do i look bad?", "i think people laugh at my looks", "i ashamed of my looks", "i am fond of my looks", "i look awesome", "i look absolutely dashing", "I don't look good"],
+            "responses":["I am quite certain that you look amazing", "You look amazing. There's no  doubt about that.", "You talk good. So I believe you look good"],
+            "context_set":""
+        },
+        {
+            "tags":"search amazon",
+            "patterns":["search in Amazon","Amazon","find in Amazon", "look for in Amazon", "Get from Amazon", "please search in Amazon"],
+            "response":["Opening in amazon"],
+            "context_set":""
+        },
+
+
+        {
+            "tags":"search flipkart",
+            "patterns":["search in flipkart","flipkart","find in flipkart", "look for in flipkart", "Get from flipkart"],
+            "response":["Opening in flipkart"],
+            "context_set":""
+        },
+
+        {
+            "tags":"time",
+            "patterns":["what's the time", "Tell me the time", "current time", "i want to know the time", "i wanna know the time","time","what's the date","i want to know today's date","need to know today's date","tell em today's date","what day is today","date","can you tell me today's date","can you tell me the time right now"],
+            "responses":["time"],
+            "context_set":""
+            
+        }
+
+
+
+         
+
+]
+}
