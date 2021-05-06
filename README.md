@@ -49,6 +49,10 @@ This assistant has the following functionalities:-
 
 
 
+          CONTACT US AT 
+          RISHIRAJ : 📧 riiishi3@gmail.com
+          MAYUKH : 📧 mayukhmmm@gmail.com
+
 
 
 
