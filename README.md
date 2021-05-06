@@ -43,6 +43,9 @@ This assistant has the following functionalities:-
           Guys this is the first version of this app, so it dosent have that much replies to your need , there are margin of errors.
           So if you find it not too accurate We are Genuenly sorry about that, but we promise to make the voice assistant/chatbot more
           sophisticated in the near future. So yeah Thanks :)
+          
+          
+                                      WE ARE THINKING OF DEPLOYING IT TO THE WEB IS IT A GOOD IDEA?
 
 
 
