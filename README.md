@@ -1,5 +1,8 @@
 # AnnaChatBot
-A voice assistant project based solely on Python. 
+A voice assistant project based solely on Python.
+
+Made By Rishiraj Roy(@connor-bats) And Mayukh Samadder(@MayukhSamadder2000)
+
 This assistant has the following functionalities:-
 1)It can greet you with respect to your response
   a)If your response is positive it will give you a positive feedback
